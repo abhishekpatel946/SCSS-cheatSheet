@@ -1,0 +1,37 @@
+@import 'universal';
+@import 'colorStack';
+@import 'fontStack';
+
+header {
+  margin-top: 10rem;
+  padding: 20px;
+  h1 {
+    color: $lightBlue;
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+section {
+  padding: 10px;
+  border: 1px solid $lightGrey;
+  &:hover {
+    color: $lightGrey;
+  }
+  p {
+    font-size: 20px;
+    font-family: $font-stack;
+  }
+  span {
+    color: $lightBlue;
+  }
+}
+
+footer {
+  margin: 40px;
+  padding: 20px;
+  span {
+    color: $lightRed;
+  }
+}
